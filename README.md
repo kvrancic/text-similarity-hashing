@@ -66,12 +66,13 @@ python SimHashBuckets.py < input.txt > output.txt
 .
 ├── SimHash.py              # Task A implementation
 ├── SimHashBuckets.py       # Task B implementation using LSH
+├── test_pipeline.py        # Custom pipeline for running testcases 
 ├── README.md
 ```
 
 ## 📚 References
 
-- [SimHash Paper (Google)](https://www.fer.unizg.hr/_download/repository/AVSP_01_Near_Duplicates_Simhash.pdf)
+- [SimHash Paper (Google)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33026.pdf)
 - [Locality Sensitive Hashing (LSH)](https://www.fer.unizg.hr/_download/repository/AVSP_02_Finding_Similar_Items.pdf)
 
 ## 👨‍🎓 Author

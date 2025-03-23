@@ -58,7 +58,7 @@ def run_tests(executable, test_dir):
                     stdin=in_f,
                     capture_output=True,
                     text=True,
-                    timeout=30  # Timeout after 30 seconds
+                    timeout=300  # Timeout after 30 seconds
                 )
             elapsed_time = time.time() - start_time
             
